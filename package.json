@@ -1,0 +1,30 @@
+{
+  "name": "poppins-asana-pusher",
+  "version": "0.0.0",
+  "description": "Mary Poppins plugin to push issue and pull request info to Asana tasks.",
+  "main": "task.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffbcross/poppins-asana-pusher"
+  },
+  "keywords": [
+    "mary-poppins",
+    "asana",
+    "github"
+  ],
+  "author": "jeffbcross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffbcross/poppins-asana-pusher/issues"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0",
+    "asana-api": "git+https://github.com/jeffbcross/node-asana-api.git"
+  }
+}
