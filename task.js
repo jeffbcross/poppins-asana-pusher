@@ -1,6 +1,4 @@
-var util = require('util'),
-    EventEmitter = require('events').EventEmitter,
-    asana = require('asana-api'),
+var asana = require('asana-api'),
     asanaClient,
     poppins;
 
